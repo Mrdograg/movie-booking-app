@@ -8,8 +8,6 @@ app.use(cors());
 
 const port = 9000;
 
-// --- --- --- --- --- --- --- --- --- ---
-
 const  MONGODB_URL = "mongodb://localhost:27017/moviesdb";
 
 app.get("/", (req, res) => {
